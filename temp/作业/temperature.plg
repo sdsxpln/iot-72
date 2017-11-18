@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\iot\×÷Òµ\temperature.uvproj
+Project File Date:  10/11/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling temp.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RCVMSG?TEMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND?TEMP
+Program Size: data=18.1 xdata=0 code=881
+creating hex file from "temperature"...
+"temperature" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling temp.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RCVMSG?TEMP
+Program Size: data=18.1 xdata=0 code=896
+creating hex file from "temperature"...
+"temperature" - 0 Error(s), 1 Warning(s).
+
+Program Size: data=20.1 xdata=0 code=800
+creating hex file from "temperature"...
+"temperature" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling temp.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RCVMSG?TEMP
+Program Size: data=18.1 xdata=0 code=896
+creating hex file from "temperature"...
+"temperature" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling temp.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RCVMSG?TEMP
+Program Size: data=18.1 xdata=0 code=896
+creating hex file from "temperature"...
+"temperature" - 0 Error(s), 1 Warning(s).
