@@ -189,10 +189,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>107</ColumnNumber>
+      <ColumnNumber>13</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>181</TopLine>
-      <CurrentLine>198</CurrentLine>
+      <TopLine>139</TopLine>
+      <CurrentLine>168</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\temp.c</PathWithFileName>
       <FilenameWithoutPath>temp.c</FilenameWithoutPath>
@@ -1596,9 +1596,9 @@
       <Documents>
         <Doc>
           <Name>.\temp.c</Name>
-          <ColumnNumber>107</ColumnNumber>
-          <TopLine>181</TopLine>
-          <CurrentLine>198</CurrentLine>
+          <ColumnNumber>13</ColumnNumber>
+          <TopLine>139</TopLine>
+          <CurrentLine>168</CurrentLine>
         </Doc>
         <Doc>
           <Name>UART.H</Name>

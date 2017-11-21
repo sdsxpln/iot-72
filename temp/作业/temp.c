@@ -204,7 +204,6 @@ void main()
 		Led(sdata);
 		//count = 0;
 		if(count>=2) send(sdata);
-		//sendmsg('0');
 	}
 }
 
