@@ -1,8 +1,9 @@
 #include <msp430x14x.h> 
 #include "Config.h" 
-#include "1602.c"  
-#include "clock.c"            
+#include "1602.c"        
 #include "UART.h"
+
+int count = 0;
 
 #define uchar unsigned char  
 #define uint unsigned int  
@@ -33,7 +34,7 @@ void dista_f(unsigned long int distance_data)
       LCD1602_write_double(13,1,dista_data_sum);   //?1602?????   
      LCD1602_write_char(14,1,'m');  
       LCD1602_write_char(15,1,'m');  
-  
+    //Print_float(dista_data_sum, 2);
   }  
 }  
   
@@ -49,14 +50,23 @@ void Init_IO()
 /**************??????******************/  
 void Init_Timer()  
 {  
-  TACTL|=TACLR+TASSEL_2+ID_3;                   //???A???   
+  TACTL|=TACLR+TASSEL_2+ID_3;                   //???A???  
+  //TACTL |= TASSEL1 + TACLR + ID0 + ID1 + MC0 + TAIE;
+  //TACCR0 = 9999;
 }  
+void InitTimerB(){
+  TBCTL=TBSSEL1+ID1+ID0+MC0+TBCLR;//选择1/8SMCLK 增计数 清除TAR
+  TBCCTL0=CCIE;//CCR0中断允许 比较模式
+  TBCCR0=10000;//时间间隔10ms
+}
 /************???**************************/  
 void main( void )  
 {  
     WDTCTL = WDTPW + WDTHOLD;                   //?????  
-    init_clk();                                 //?????  
-    Init_IO();                                  //???IO  
+    Clock_Init();
+    InitTimerB(); 
+    Init_IO(); 
+    UART_Init();
     Start_1602();                                //??1602  
     tim_data=0;cnt=0;dista_data=0;                
     delay(1000);   //????  
@@ -91,8 +101,19 @@ __interrupt void port_init(void)
     P2IES&=~BIT1;                               //??P2??????       
     tim_data=TAR;                               //????   
    dista_data=(tim_data*1000/58);              //?????(??=us/58)   
-   //   dista_data=(tim_data*17/100);             
+      //dista_data=(tim_data*17/100);             
     dista_f(dista_data);                        //??????  
   }  
   P2IFG&=~BIT1;                                 // P2???????  
 }  
+
+#pragma vector=TIMERB0_VECTOR
+__interrupt void TimerBINT()
+{
+  count++;
+  if(count>=300)
+  {
+    Print_float(dista_data_sum, 2);
+    count = 0;
+  }
+}

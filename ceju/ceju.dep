@@ -21,6 +21,7 @@
       <file>$TOOLKIT_DIR$\inc\in430.h</file>
       <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$PROJ_DIR$\Debug\Exe\ceju.txt</file>
+      <file>$PROJ_DIR$\UART.h</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
@@ -46,11 +47,11 @@
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 10 12 9 7 3 5</file>
+          <file> 10 12 9 7 3 15</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 10 12 9 7 3 5</file>
+          <file> 10 12 9 7 3 15</file>
         </tool>
       </inputs>
     </file>

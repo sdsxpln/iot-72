@@ -62,35 +62,43 @@
           <Factory>TextEditor</Factory>
           <Filename>$WS_DIR$\main.c</Filename>
           <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>115</SelStart>
-          <SelEnd>115</SelEnd>
-        </Tab>
-        <ActiveTab>1</ActiveTab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\clock.c</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>28</SelStart>
-          <SelEnd>28</SelEnd>
+          <YPos>108</YPos>
+          <SelStart>3462</SelStart>
+          <SelEnd>3462</SelEnd>
         </Tab>
         <Tab>
           <Factory>TextEditor</Factory>
           <Filename>$WS_DIR$\1602.c</Filename>
           <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>28</SelStart>
-          <SelEnd>28</SelEnd>
+          <YPos>103</YPos>
+          <SelStart>3074</SelStart>
+          <SelEnd>3074</SelEnd>
         </Tab>
         <Tab>
           <Factory>TextEditor</Factory>
           <Filename>$WS_DIR$\Config.h</Filename>
           <XPos>0</XPos>
-          <YPos>60</YPos>
-          <SelStart>225</SelStart>
-          <SelEnd>225</SelEnd>
+          <YPos>147</YPos>
+          <SelStart>5954</SelStart>
+          <SelEnd>5954</SelEnd>
         </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\..\msp430\IAR\430\inc\msp430x14x.h</Filename>
+          <XPos>0</XPos>
+          <YPos>536</YPos>
+          <SelStart>26844</SelStart>
+          <SelEnd>26844</SelEnd>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\UART.h</Filename>
+          <XPos>0</XPos>
+          <YPos>40</YPos>
+          <SelStart>1551</SelStart>
+          <SelEnd>1551</SelEnd>
+        </Tab>
+        <ActiveTab>5</ActiveTab>
       </Pane>
       <ActivePane>0</ActivePane>
       <Sizes>
