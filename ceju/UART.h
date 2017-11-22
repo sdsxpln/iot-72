@@ -1,6 +1,7 @@
 #ifndef _UART_H_
 #define _UART_H_
 #include "msp430x14x.h"
+void Print_Str(uchar *s);
 //*************************************************************************
 //               MSP430?????
 //*************************************************************************
@@ -39,31 +40,23 @@ void Print_float(unsigned int  t, unsigned char position)//?????   position ????
     s_int[i++] = t%10;
     t=t/10;
   }
-    i--;
-    //Send_Byte('&');
-    /*while(i)
+  for(i=4;i>=0;i--)  
+  {  
+    if(i==position) 
     {
-      if(i==position)
-        Send_Byte(0x2E);
-        Send_Byte(0x30 + s_int[i]);
-        i--;
-    }*/
-    //Send_Byte('m');
-    //Send_Byte('m');*/
-   for(i=4;i>=0;i--)  
-    {  
-      if(i==position) 
-      {
-        Send_Byte(0x30 + s_int[i]);
-        Send_Byte(0x2E);  
-      }
-      else  
-      {    
-        Send_Byte(0x30 + s_int[i]);   
-      }  
+      Send_Byte(0x30 + s_int[i]);
+      Send_Byte(0x2E);  
     }
-   Send_Byte('m');
-   Send_Byte('m');
+    else  
+    {    
+      Send_Byte(0x30 + s_int[i]);   
+    }  
+  }
+  //delay_ms(100);
+  Send_Byte('m');
+  Send_Byte('m');
+  Send_Byte(' ');
+  delay_ms(100);
 }
 //*************************************************************************
 //              ??0??int???

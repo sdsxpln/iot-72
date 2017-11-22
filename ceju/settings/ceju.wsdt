@@ -2,45 +2,41 @@
 
 <Workspace>
   <ConfigDictionary>
-    <CurrentConfigs>
-      <Project>ceju/Debug</Project>
-    </CurrentConfigs>
-  </ConfigDictionary>
+    
+  <CurrentConfigs><Project>ceju/Debug</Project></CurrentConfigs></ConfigDictionary>
   <Desktop>
     <Static>
       <Workspace>
         <ColumnWidths>
-          <Column0>124</Column0>
-          <Column1>27</Column1>
-          <Column2>27</Column2>
-          <Column3>27</Column3>
-        </ColumnWidths>
+          
+          
+          
+          
+        <Column0>72</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
       </Workspace>
       <Build>
-        <ColumnWidth0>20</ColumnWidth0>
-        <ColumnWidth1>807</ColumnWidth1>
-        <ColumnWidth2>215</ColumnWidth2>
-        <ColumnWidth3>53</ColumnWidth3>
-      </Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>807</ColumnWidth1><ColumnWidth2>215</ColumnWidth2><ColumnWidth3>53</ColumnWidth3></Build>
     </Static>
     <Windows>
-      <Wnd2>
+      
+      
+    <Wnd2>
         <Tabs>
           <Tab>
             <Identity>TabID-13169-30230</Identity>
             <TabName>Workspace</TabName>
             <Factory>Workspace</Factory>
             <Session>
-              <NodeDict>
-                <ExpandedNode>ceju</ExpandedNode>
-                <ExpandedNode>ceju/Output</ExpandedNode>
-              </NodeDict>
-            </Session>
+              
+            <NodeDict><ExpandedNode>ceju</ExpandedNode><ExpandedNode>ceju/Output</ExpandedNode></NodeDict></Session>
           </Tab>
         </Tabs>
-        <SelectedTab>0</SelectedTab>
-      </Wnd2>
-      <Wnd3>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
         <Tabs>
           <Tab>
             <Identity>TabID-26824-30384</Identity>
@@ -49,129 +45,21 @@
             <Session/>
           </Tab>
         </Tabs>
-        <SelectedTab>0</SelectedTab>
-      </Wnd3>
-    </Windows>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
     <Editor>
-      <Pane>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\..\..\msp430\IAR\430\doc\infocenter\index.ENU.html</Filename>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\main.c</Filename>
-          <XPos>0</XPos>
-          <YPos>108</YPos>
-          <SelStart>3462</SelStart>
-          <SelEnd>3462</SelEnd>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\1602.c</Filename>
-          <XPos>0</XPos>
-          <YPos>103</YPos>
-          <SelStart>3074</SelStart>
-          <SelEnd>3074</SelEnd>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\Config.h</Filename>
-          <XPos>0</XPos>
-          <YPos>147</YPos>
-          <SelStart>5954</SelStart>
-          <SelEnd>5954</SelEnd>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\..\..\msp430\IAR\430\inc\msp430x14x.h</Filename>
-          <XPos>0</XPos>
-          <YPos>536</YPos>
-          <SelStart>26844</SelStart>
-          <SelEnd>26844</SelEnd>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\UART.h</Filename>
-          <XPos>0</XPos>
-          <YPos>40</YPos>
-          <SelStart>1551</SelStart>
-          <SelEnd>1551</SelEnd>
-        </Tab>
-        <ActiveTab>5</ActiveTab>
-      </Pane>
-      <ActivePane>0</ActivePane>
-      <Sizes>
-        <Pane>
-          <X>1000000</X>
-          <Y>1000000</Y>
-        </Pane>
-      </Sizes>
-      <SplitMode>1</SplitMode>
-    </Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\msp430\IAR\430\doc\infocenter\index.ENU.html</Filename></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>108</YPos><SelStart>3627</SelStart><SelEnd>3627</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\1602.c</Filename><XPos>0</XPos><YPos>93</YPos><SelStart>3586</SelStart><SelEnd>3600</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Config.h</Filename><XPos>0</XPos><YPos>147</YPos><SelStart>5954</SelStart><SelEnd>5954</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\msp430\IAR\430\inc\msp430x14x.h</Filename><XPos>0</XPos><YPos>536</YPos><SelStart>26844</SelStart><SelEnd>26844</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\UART.h</Filename><XPos>0</XPos><YPos>48</YPos><SelStart>1630</SelStart><SelEnd>1630</SelEnd></Tab><ActiveTab>5</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
-      <Top>
-        <Row0>
-          <Sizes>
-            <Toolbar-084a1528>
-              <key>iaridepm.enu1</key>
-            </Toolbar-084a1528>
-          </Sizes>
-        </Row0>
-      </Top>
-      <Left>
-        <Row0>
-          <Sizes>
-            <Wnd2>
-              <Rect>
-                <Top>-2</Top>
-                <Left>-2</Left>
-                <Bottom>421</Bottom>
-                <Right>198</Right>
-                <x>-2</x>
-                <y>-2</y>
-                <xscreen>200</xscreen>
-                <yscreen>200</yscreen>
-                <sizeHorzCX>176211</sizeHorzCX>
-                <sizeHorzCY>301205</sizeHorzCY>
-                <sizeVertCX>176211</sizeVertCX>
-                <sizeVertCY>637048</sizeVertCY>
-              </Rect>
-            </Wnd2>
-          </Sizes>
-        </Row0>
-      </Left>
-      <Right>
-        <Row0>
-          <Sizes/>
-        </Row0>
-      </Right>
-      <Bottom>
-        <Row0>
-          <Sizes>
-            <Wnd3>
-              <Rect>
-                <Top>-2</Top>
-                <Left>-2</Left>
-                <Bottom>198</Bottom>
-                <Right>1137</Right>
-                <x>-2</x>
-                <y>-2</y>
-                <xscreen>1139</xscreen>
-                <yscreen>200</yscreen>
-                <sizeHorzCX>1003524</sizeHorzCX>
-                <sizeHorzCY>301205</sizeHorzCY>
-                <sizeVertCX>176211</sizeVertCX>
-                <sizeVertCY>301205</sizeVertCY>
-              </Rect>
-            </Wnd3>
-          </Sizes>
-        </Row0>
-      </Bottom>
-      <Float>
-        <Sizes/>
-      </Float>
-    </Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-07012c28><key>iaridepm.enu1</key></Toolbar-07012c28></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>439</Bottom><Right>146</Right><x>-2</x><y>-2</y><xscreen>148</xscreen><yscreen>155</yscreen><sizeHorzCX>130396</sizeHorzCX><sizeHorzCY>243328</sizeHorzCY><sizeVertCX>130396</sizeVertCX><sizeVertCY>692308</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>153</Bottom><Right>1137</Right><x>-2</x><y>-2</y><xscreen>1139</xscreen><yscreen>155</yscreen><sizeHorzCX>1003524</sizeHorzCX><sizeHorzCY>243328</sizeHorzCY><sizeVertCX>130396</sizeVertCX><sizeVertCY>243328</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 

@@ -4,6 +4,7 @@
 #include "UART.h"
 
 int count = 0;
+int flag = 0;
 
 #define uchar unsigned char  
 #define uint unsigned int  
@@ -62,6 +63,7 @@ void InitTimerB(){
 /************???**************************/  
 void main( void )  
 {  
+    
     WDTCTL = WDTPW + WDTHOLD;                   //?????  
     Clock_Init();
     InitTimerB(); 
@@ -76,12 +78,17 @@ void main( void )
     _EINT();                                    //?????  
     while(1)  
     {  
+        /*if(flag == 1)
+        {
+          Print_float(dista_data_sum, 2);
+          flag = 0;
+        }*/
         trig_H;                                   //?????  
         delay(2);                                 //??15us  
         trig_L;                                   //?????  
         delay(50);                                //????  
         while(echo);                              //????  
-        delay(1000);                              //????  
+        delay(1000);                              //???? 
     }  
 }  
 /*****************************P2???*******************/  
@@ -114,6 +121,7 @@ __interrupt void TimerBINT()
   if(count>=300)
   {
     Print_float(dista_data_sum, 2);
+    //flag = 1;
     count = 0;
   }
 }
